@@ -3,6 +3,7 @@
  */
 package com.daniel.study.stringutil;
 
+
 /**
  * @author fengyu
  *
@@ -176,6 +177,16 @@ public class StringUtil {
 			}
 		}
 		return result.toString();
+	}
+
+	public static String connectStrs(String... strs)
+	{
+		StringBuilder sb = new StringBuilder();
+		for (String str : strs)
+		{
+			sb.append( str );
+		}
+		return sb.toString();
 	}
 	/**
 	 * 将二进制字符串转换为int数组
