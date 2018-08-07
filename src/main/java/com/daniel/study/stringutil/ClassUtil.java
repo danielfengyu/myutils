@@ -57,4 +57,8 @@ public class ClassUtil
 		int index = clazz.getName().lastIndexOf( '.' );
 		return clazz.getName().substring( index + 1 );
 	}
+	
+	public static String format(){
+		return null;
+	}
 }
